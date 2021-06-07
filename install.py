@@ -4,7 +4,8 @@ dotfilesDir = os.path.dirname(os.path.realpath(__file__))
 homeDir = os.path.expanduser('~')
 
 symlinks = [
-    (f'{dotfilesDir}/.zshrc', f'{homeDir}/.zshrc')
+    (f'{dotfilesDir}/.zshrc', f'{homeDir}/.zshrc'),
+    (f'{dotfilesDir}/.gitconfig', f'{homeDir}/.gitconfig'),
 ]
 
 for symlink in symlinks:

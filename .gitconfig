@@ -1,0 +1,6 @@
+[user]
+  name = Dan VanWinkle
+[pull]
+	rebase = true
+[commit]
+  gpgsign = true
